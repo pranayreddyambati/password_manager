@@ -1,5 +1,7 @@
 # Password Manager
 
+Visit the live site: [Password Manager](https://password-manager-olx5.onrender.com)
+
 ## Overview
 
 The Password Manager project provides a secure and convenient solution for managing and storing passwords. It offers functionalities for users to sign up, sign in, save, retrieve, and delete their credentials. The project utilizes encryption techniques to safeguard sensitive information and ensures proper session management for user authentication.
