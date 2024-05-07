@@ -19,7 +19,7 @@ app.use(express.static('public'));
 
 // Use the session middleware
 app.use(session({
-  secret: '4vS6Kz9pR2q7fC8xW3bG1tY0uA5sD6fG',
+  secret: process.env.SESSION_KEY,
   resave: false,
   saveUninitialized: false
 }));
