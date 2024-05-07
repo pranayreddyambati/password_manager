@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > h2 {
+    margin-left: 2rem;
+}
+
+header > a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+main{
+    margin: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for table header */
+}
+
+td.password {
+    cursor: pointer;
+}
+
+form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input {
+    margin: 0;
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
